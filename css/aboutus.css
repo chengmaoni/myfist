@@ -1,0 +1,315 @@
+.aboutus_banner{
+    width: 100%;
+    height: 350px;
+    background: url(../images/aboutus/aboutus_banner.jpg) center center no-repeat;
+}
+.aboutus_jianjie_tit{
+    text-align: center;
+}
+.aboutus_jianjie_tit h3{
+    font-size: 32px;
+    color: #000000;
+    line-height: 2em;
+    margin-top: 20px;
+}
+.aboutus_jianjie_tit p{
+    font-size: 14px;
+    color: #696969;
+    line-height: 2em;
+}
+.aboutus_jianjie_box{
+    height: 321px;
+    position: relative;
+    margin-top: 25px;
+}
+.aboutus_jianjie_box_pic1{
+    width: 245px;
+    height: 160px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.aboutus_jianjie_box_pic1 a img{
+    width: 245px;
+    height: 160px;
+    transition: all 0.5s;
+}
+.aboutus_jianjie_box_pic1 a:hover img{
+    transform: scale(1.1);
+}
+.aboutus_jianjie_box_pic2 a:hover img{
+    transform: scale(1.1);
+}
+.aboutus_jianjie_box_pic3 a:hover img{
+    transform: scale(1.1);
+}
+.aboutus_jianjie_box_pic2{
+    width: 245px;
+    height: 160px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.aboutus_jianjie_box_pic2 a img{
+    width: 245px;
+    height: 160px;
+    transition: all 0.5s;
+}
+.aboutus_jianjie_box_pic3{
+    width: 245px;
+    height: 321px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 246px;
+}
+.aboutus_jianjie_box_pic3 a img{
+    width: 245px;
+    height: 321px;
+    transition: all 0.5s;
+}
+.aboutus_jianjie_box_cont{
+    width: 709px;
+    height: 321px;
+    background: rgba(248, 248, 248, 1);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 0px 35px;
+}
+.aboutus_jianjie_box_cont h3{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+.aboutus_jianjie_box_cont p{
+    font-size: 14px;
+    line-height: 2.2em;
+    color: #707070;
+}
+.aboutus_jianjie>a{
+    display: block;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 20px;
+    color: #ffffff;
+    background: #006d33;
+    margin-top: 30px;
+    margin: 40px auto 40px auto;
+}
+.aboutus_develop{
+    background: rgba(248, 248, 248, 1) ;
+    height: 870px;
+}
+.aboutus_develop_main{
+    padding: 20px 0;
+}
+.aboutus_develop_main_tit{
+    text-align: center;
+}
+.aboutus_develop_main_tit h3{
+    font-size: 32px;
+    color: #000000;
+    line-height: 2em;
+}
+.aboutus_develop_main_tit p{
+    font-size: 14px;
+    color: #696969;
+    line-height: 2em;
+}
+.aboutus_develop_main_year{
+    margin-top: 60px;
+}
+.aboutus_develop_main_year ul li{
+    float: left;
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+.aboutus_develop_main_year ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    display: block;
+}
+.aboutus_develop_main_year ul li a p{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.aboutus_develop_main_year ul li a span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #006d33;
+    border-radius: 10px;
+    position: absolute;
+    left: 75px;
+    top: 0px;
+}
+.aboutus_develop_main_pic{
+    width: 620px;
+    height: 380px;
+    overflow: hidden;
+    margin: 60px auto auto auto;
+}
+.aboutus_develop_main_pic img{
+    width: 620px;
+    height: 380px;
+}
+.aboutus_develop_main_ftit{
+    text-align: center;
+    margin-top: 10px;
+}
+.aboutus_develop_main_ftit h3{
+    font-size: 20px;
+    color: #595959;
+    line-height: 2em;
+    font-weight: normal;
+}
+.aboutus_develop_main_ftit p{
+    font-size: 16px;
+    color: #595959;
+    line-height: 2em;
+}
+.aboutus_develop_main>a{
+    display: block;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 20px;
+    color: #ffffff;
+    background: #006d33;
+    margin: 30px auto 30px auto;
+}
+.aboutus_others{
+    height: 530px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aboutus_others_left{
+    width: 380px;
+    height: 530px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(248, 248, 248, 1);
+}
+.aboutus_others_left>a{
+    display: block;
+    width: 380px;
+    height: 250px;
+    overflow: hidden;
+}
+.aboutus_others_left>a img{
+    display: block;
+    width: 380px;
+    height: 250px;
+    transition: all 0.5s;
+}
+.aboutus_others_left>a:hover img{
+    transform: scale(1.1);
+}
+.aboutus_others_left_cont{
+    text-align: center;
+}
+.aboutus_others_left_cont h3{
+    color: #000000;
+    font-size: 24px;
+    line-height: 1.8em;
+    font-weight: normal;
+    margin-top: 40px;
+}
+.aboutus_others_left_cont .line{
+    width: 50px;
+    height: 2px;
+    background: #006d33;
+    margin-left: 165px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.aboutus_others_left_cont p{
+    color: #333333;
+    font-size: 14px;
+    line-height: 2em;
+}
+.aboutus_others_rt{
+    width: 770px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(248, 248, 248, 1);
+}
+.aboutus_others_rt>a{
+    display: block;
+    width: 380px;
+    height: 250px;
+    overflow: hidden;
+    float: left;
+}
+.aboutus_others_rt>a img{
+    display: block;
+    width: 380px;
+    height: 250px;
+    transition: all 0.5s;
+}
+.aboutus_others_rt>a:hover img{
+    transform: scale(1.1);
+}
+.aboutus_others_rt_cont{
+    width: 390px;
+    height: 250px;
+    float: right;
+    padding: 10px 28px 10px 28px;
+}
+.aboutus_others_rt_cont h3{
+    color: #000000;
+    font-size: 24px;
+    line-height: 1.8em;
+    font-weight: normal;
+}
+.aboutus_others_rt_cont .line{
+    width: 50px;
+    height: 2px;
+    background: #006d33;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.aboutus_others_rt_cont p{
+    color: #333333;
+    font-size: 14px;
+    line-height: 2em;
+}
+.aboutus_others_rb{
+    width: 770px;
+    height: 250px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.aboutus_others_rb a{
+    display: block;
+    overflow: hidden;
+    width: 770px;
+    height: 250px;
+}
+.aboutus_others_rb a img{
+    display: block;
+    width: 770px;
+    height: 250px;
+    transition: all 0.5s;
+}
+.aboutus_others_rb a:hover img{
+    transform: scale(1.1);
+}

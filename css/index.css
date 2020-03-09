@@ -1,0 +1,392 @@
+.index_banner ul{
+    width: 100%;
+    height: 660px; 
+    overflow: hidden;
+}
+.index_banner ul li{
+    list-style: none;
+    width: 100%;
+    height: 660px;
+    overflow: hidden;
+}
+.index_banner ul li a{
+    text-decoration: none;
+    display: block;
+    animation: lunbo 20s infinite;
+    width: 100%;
+    height: 660px;
+}
+@keyframes lunbo{
+    0%{
+        background: url(../images/index/banner01.jpg) center top no-repeat;
+    }
+    25%{
+        background: url(../images/index/banner02.jpg) center top no-repeat;
+    }
+    50%{
+        background: url(../images/index/banner03.jpg) center top no-repeat;
+    }
+    100%{
+        background: url(../images/index/banner04.jpg) center top no-repeat;
+    }
+}
+.index_abouttailong{
+    width: 100%;
+    height: 560px;
+    background: url(../images/index/banner11.jpg) center top no-repeat #ffffff;
+}
+.index_abouttailong_text{
+    text-align: center;
+    padding-top: 170px;
+}
+.index_abouttailong_text h3{
+    font-size: 24px;
+    color: #333333;
+    font-weight: normal;
+    line-height: 3em;
+}
+.index_abouttailong_text p{
+    font-size: 14px;
+    color: #333333;
+    line-height: 2.2em;
+}
+.index_abouttailong_services_box{
+    width: 115px;
+    height: 210px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin: 0px 42.5px;
+}
+.index_abouttailong_services_box .pic1 {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    transition: all 0.5s;
+}
+.index_abouttailong_services_box .pic2 {
+    position: absolute;
+    left: -150px;
+    top: 20px;
+    transition: all 0.5s;
+}
+.index_abouttailong_services_box .text1{
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    transition: all 0.5s;
+}
+.index_abouttailong_services_box .text2{
+    position: absolute;
+    bottom: 15px;
+    right: -300px;
+    transition: all 0.5s;
+}
+.index_abouttailong_services_box .text1 a{   
+    text-decoration: none;
+    font-size: 16px;
+    color: #707070;
+}
+.index_abouttailong_services_box .text2 a{   
+    text-decoration: none;
+    font-size: 16px;
+    color: #006d33;
+}
+.index_abouttailong_services_box:hover .pic1{
+    right: -150px;
+}
+.index_abouttailong_services_box:hover .pic2{
+    left: 0px;
+}
+.index_abouttailong_services_box:hover .text1{
+    left: -300px;
+}
+.index_abouttailong_services_box:hover .text2{
+    right: 25px;
+}
+.index_develop{
+    height: 650px;
+    width: 100%;
+    background: url(../images/index/banner21.jpg) center top no-repeat rgba(1, 88, 42, 1);
+    padding-top: 20px;
+}
+.index_develop_text1 h3{
+    font-weight: normal;
+    font-size: 24px;
+    color: #006d33;
+    text-align: center;
+    line-height: 2.5em;
+}
+.index_develop_text1 p{
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    line-height: 2.2em;
+}
+.index_develop_son{
+    margin-top: 30px;
+}
+.index_develop_son_tit{
+    height: 420px;
+    width: 300px;
+    background: #006d33;
+    float: left;
+}
+.index_develop_son_tit dl dt{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.index_develop_son_tit dl dd{
+    padding-left: 25px;
+    height: 50px;
+    margin: 10px 0px;
+}
+.index_develop_son_tit dl dd:hover{
+    background: #eb8521;
+}
+.index_develop_son_tit dl dd:last-child:hover{
+    background: none;
+}
+.index_develop_son_tit dl dd a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-size: 16px;
+    line-height: 50px;
+}
+.index_develop_son_cont{
+    height: 420px;
+    width: 870px;
+    float: right;
+    position: relative;
+    background: url(../images/index/fgs01.jpg) left center no-repeat #ffffff;
+}
+.index_develop_son_cont_main{
+    width: 290px;
+    height: 420px;
+    padding: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.index_develop_son_cont_main h3{
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+}
+.index_develop_son_cont_main .line{
+    height: 1px;
+    width: 230px;
+    background: #dad6d6;
+    margin:20px 0px;
+}
+.index_develop_son_cont_main p{
+    font-size: 14px;
+    color: #333333;
+    line-height: 2em;
+    padding-top: 10px;
+}
+.index_develop_son_cont_main a{
+    display: block;
+    width: 115px;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #eb8521;
+    text-align: center;
+    margin-top: 30px;
+}
+.index_products{
+    width: 100%;
+    height: 640px;
+    position: relative;
+    background: url(../images/index/banner31.jpg) center top no-repeat;
+}
+.index_products_text1{
+    width: 400px;
+    height: 430px;
+    border-top-right-radius: 20px;
+    background: #ffffff;
+    position: absolute;
+    top: -30px;
+    padding: 40px;
+}
+.index_products_text1 h3{
+    font-size: 20px;
+    color: #999999;
+    font-weight: normal;
+}
+.index_products_text1 h4{
+    font-size: 24px;
+    color: #006d33;
+    font-weight: normal;
+    padding: 15px 0px;
+}
+.index_products_text1 p{
+    font-size: 14px;
+    color: #000000;
+    line-height: 2.2em;
+    margin-top: 10px;
+    letter-spacing: 0px;
+}
+.index_products_text1 a{
+    display: block;
+    width: 115px;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #eb8521;
+    text-align: center;
+    margin-top: 20px;
+}
+.index_products_text2{
+    width: 400px;
+    height: 170px;
+    position: absolute;
+    bottom: 15px;
+}
+.index_products_text2_butt{
+    width: 180px;
+    height: 70px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    background: #f5f2f2;
+}
+.index_products_text2_butt:nth-child(1){
+    float: left;
+}
+.index_products_text2_butt:nth-child(2){
+    float: right;
+}
+.index_products_text2_main:nth-child(2){
+    margin-top: 25px;
+}
+.index_products_text2_butt a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+}
+.index_products_text2_butt a i{
+    font-size: 30px;
+    color: #999999;
+}
+.index_products_text2_butt a span{
+    font-size: 18px;
+    color: #006d33;
+    padding-left: 10px;
+}
+.index_products_text2_butt:hover{
+    background: #006d33;
+}
+.index_products_text2_butt:hover a i{
+    color: #ffffff;
+}
+.index_products_text2_butt:hover a span{
+    color: #ffffff;
+}
+.index_news_main{
+    padding-bottom: 30px;
+}
+.index_news_main_text h3{
+    font-size: 24px;
+    font-weight: normal;
+    color: #006d33;
+    text-align: center;
+    line-height: 2.5em;
+    padding-top: 20px;
+}
+.index_news_main_text p{
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    line-height: 2.2em;
+}
+.index_news_main_a{
+    width: 600px;
+    margin: auto;
+}
+.index_news_main_a a{
+    display: block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    border: 1px solid #dadada;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333333;
+    transition: all 0.5s;
+    margin: 30px 15px;
+    float: left;
+}
+.index_news_main_a a:nth-child(1){
+    color: #ffffff;
+    background: #006d33;
+}
+.index_news_main_a a:hover{
+    color: #ffffff;
+    background: #006d33;
+}
+.index_news_main_newbox{
+    width: 360px;
+    height: 340px;
+    border: 1px solid #dadada;
+    float: left;
+    margin: 0px 20px;
+}
+.index_news_main_newbox_img{
+    width: 350px;
+    height: 165px;
+    margin: 5px;
+    overflow: hidden;
+}
+.index_news_main_newbox_img img{
+    width: 350px;
+    height: 230px;
+}
+.index_news_main_newbox a{
+    text-decoration: none;
+}
+.index_news_main_newbox a h3{
+    color: #000000;
+    font-size: 16px;
+    margin: 10px 5px;
+    height: 20px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.index_news_main_newbox a .date{
+    font-size: 14px;
+    color: #999999;
+    line-height: 18px;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+.index_news_main_newbox a .cont{
+    font-size: 14px;   
+     color: rgba(102,102,102,1);
+    line-height: 30px;
+    margin: 5px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.index_news_main_newbox a .cont span{
+    color: #999999;
+    font-size: 15px;
+}
+
